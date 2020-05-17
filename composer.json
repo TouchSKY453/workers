@@ -1,0 +1,23 @@
+{
+    "name": "workers",
+    "type": "project",
+    "config": {
+        "vendor-dir": "vendor/"
+    },
+    "require": {
+        "php": ">=7.0",
+        "workerman/workerman": "^3.5",
+        "topthink/framework": "5.0.x"
+    },
+    "require-dev": {
+    },
+    "extra": {
+        "think-path": "vendor/thinkphp"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
